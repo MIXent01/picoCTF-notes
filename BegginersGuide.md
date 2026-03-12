@@ -100,11 +100,11 @@ for pw in pos_pw_list:
 
 #### 1. Enhance!
 
-Read svg file with "cat drawing.flag.svg and found flag in it.
+Read svg file with "cat drawing.flag.svg | less" and found flag in it.
 
 #### 2. Big Zip
 
-Used grep. Command: grep -r "picoCTF{.*}" big-zip-files
+Used grep. Command: "grep -r "picoCTF{.*}"" big-zip-files
 
 #### 3. vault-door-training
 
