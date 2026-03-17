@@ -14,4 +14,6 @@ Used "mmls disk.flag.img" found there are two Linux partitions. First one was pr
 
 Used zsteg on file and got the flag.
 
+#### Packets Primer
 
+Opened packet file with wireshark. Searched through packets and found the flag in hex dump.
