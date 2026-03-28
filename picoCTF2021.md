@@ -19,6 +19,8 @@ Analyzed packet file with wireshark. Followed TCP stream and found something int
 
 Analyzed packet file with wireshark. Followed udp streams and in stream 0 found something about file "instructions.txt.octet". I followed other streams and found more files were transferred. Found 6 files overall. Downloaded them and checked "instructions.txt". It was in strange text so I decrypted it with ROT13. Followed the instructions. Downloaded .deb program. It was steghide. Used it on pictures with given passphrase and got the flag.
 
+#### Matryoshka doll
 
+Matryoshka dolls are a set of wooden dolls of decreasing size placed one inside another. I decided to use binwalk on given picture many times and got the flag.
 
 
