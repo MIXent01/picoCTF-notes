@@ -51,4 +51,8 @@ with open('x', 'wb') as out:
 Next, I checked what type of file it is with "file x". It was JPEG file. Opened it and there was a flag in the picture.
 
 
+#### Timeline 0
+
+Extracted files with binwalk. Tried some potential keywords with grep and ls. Nothing found. Tried to look for logs, because it is "Timeline 0" CTF. Nothing. Created Sleuthkit MAC timeline. Found one file was created 1985. Read it and tried it with flag. It was wrong so I decoded it with base64, it looked better and tried. It was the flag.
+
 
